@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Edu QLD Beginner', cursive;
+}
+
+.main{
+    width: 100%;
+    height: 700px;
+    background-image: linear-gradient(to right top, #051937, #002d41, #003e41, #2b4c3d, #515941);
+    margin-left: 90px;
+}
+
+.top{
+    width: 700px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    margin: auto;
+    padding: 20px;
+   
+
+}
+
+#title{
+    color: aquamarine;
+    text-align: center;
+    padding-top: 20px;
+    
+}
+h2{
+    color: aquamarine;
+    text-align: center;
+}
+
+
+.game-section{
+    margin: auto;
+    align-items: center;
+    width: 90%;
+    height: 500px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    display: flex;
+}
+
+.play-area{
+    color: aquamarine;
+    background: linear-gradient(to right top, #051937, #002d41, #003e41, #2b4c3d, #515941);;
+    margin: 5px;
+    border: 4px solid rgb(33, 33, 66);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    height: 400px;
+    flex: 1;
+    padding: 4px;
+}
+.h1-player{
+    padding-top: 10px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.select{
+   
+    height: 100px;
+    display: flex;
+    margin-top: 25px;
+
+}
+.objects{
+    flex: 1;
+    text-align: center;
+    margin: 1px;
+    box-shadow: rgba(35, 35, 102, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(233, 233, 233, 0.35) 0px -2px 6px 0px inset;
+    transition: 0.1s;
+}
+.objects:hover{
+    box-shadow: rgba(17, 17, 99, 0.25) 0px 50px 100px -20px, rgba(63, 5, 5, 0.363) 0px 30px 60px -30px, rgba(96, 149, 202, 0.35) 0px -2px 6px 0px inset;
+}
+.player-info{
+    
+    height: 80px;
+    margin-bottom: 10px;
+    text-align: center;
+    display: flex;
+}
+
+.player-score{
+    flex: 1;
+}
+.computer-score{
+    flex: 1;
+}
+.score{
+    margin-top: 25px;
+    font-size:larger;
+}
+.text{
+    margin-bottom: 17px;
+    margin-top: 5px;
+}
+
+.image{
+    width: 50px;
+}
+.person{
+    width: 80px;
+}
